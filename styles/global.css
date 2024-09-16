@@ -21,7 +21,7 @@
   /* --font-family-inconsolata: "Inconsolata", monospace; */
   --font-family-asap: "Asap", sans-serif;;
   --font-family-maven: "Maven Pro", sans-serif;
-  --subtitle: 800 20px/120% "Inconsolata", monospace;
+  --subtitle: 400 20px/120% "Inconsolata", monospace;
 
   --text-asap-lg: 800 56px/120% var(--font-family-asap);
   --text-asap-md: 800 24px/120% var(--font-family-asap);
@@ -48,4 +48,17 @@ h1, h2 {
 
 img {
   max-width: 100%;
+}
+
+.content-tag {
+  background-color: var(--gray-300);
+  width: fit-content;
+  padding: 8px 16px;
+
+  border-radius: 999px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
 }

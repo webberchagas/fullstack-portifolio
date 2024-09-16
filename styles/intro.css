@@ -1,0 +1,64 @@
+#intro {
+  background-image: url(../assest/images/Background_Intro.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  #info {
+    padding-block: 120px 57px;
+  
+    header {
+      margin: 0 auto;
+      max-width: 680px;
+    }
+  }
+}
+
+#avatar {
+  width: 96px;
+  height: 96px;
+  position: relative;
+
+  img:first-child {
+    width: 96px;
+    height: 96px;
+    padding: 4px;
+  
+    border: solid 2px var(--red);
+  
+    border-radius: 50%;
+  }
+
+  img:nth-child(2) {
+    width: 31px;
+    height: 25px;
+  
+    position: absolute;
+    bottom: 0;
+    right: -2px;
+  }
+}
+
+#description {
+  text-align: center;
+
+  h2 {
+    margin-top: 54px;
+    font: var(--subtitle);
+    color: var(--gray-500);
+
+    span {
+      color: var(--red);
+    }
+  }
+
+  h1 {
+    font: var(--text-asap-lg);
+    color: var(--gray-600);
+  }
+
+  p {
+    margin-top: 20px;
+    font: var(--text-maven-sm);
+    color: var(--gray-400);
+  }
+}
