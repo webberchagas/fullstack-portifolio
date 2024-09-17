@@ -6,6 +6,10 @@
   display: flex;
 }
 
+.gap-8 {
+  gap: 8px;
+}
+
 .gap-16 {
   gap: 16px;
 }
