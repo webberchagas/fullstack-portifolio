@@ -1,0 +1,46 @@
+#services {
+  padding-block: 88px 120px;
+
+  background: var(--gray-100);
+}
+
+header {
+  /* text-align: center; */
+
+  h2 {
+    color: var(--red);
+    font: var(--subtitle);
+  }
+
+  p {
+    color: var(--gray-600);
+    font: var(--text-asap-md);
+  }
+}
+
+#services-gallery {
+  margin-top: 56px;
+  
+  display: grid;
+  grid-template-columns: repeat(3, 280px);
+  justify-content: center;
+  gap: 24px;
+}
+
+.service {
+  padding: 20px;
+  border: 2px solid var(--gray-200);
+  border-radius: 12px;
+
+  figcaption {
+    margin-top: 20px;
+
+    font: var(--text-asap-sm);
+    color: var(--gray-600);
+    
+    span {
+      font: var(--text-maven-sm);
+      color: var(--gray-500);
+    }
+  }
+}
